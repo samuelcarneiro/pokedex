@@ -7,6 +7,13 @@
     padding: 1rem;
 }
 
+@media screen and (min-width: 932px) {
+    .content {
+        max-width: 932px;
+        margin: 0 auto;
+    }
+}
+
 .pokemons {
     display: grid;
     grid-template-columns: 1fr 1fr;
